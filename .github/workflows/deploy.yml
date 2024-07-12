@@ -1,0 +1,38 @@
+name: Publish to GH Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Checkout destination
+        uses: actions/checkout@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          ref: gh-pages
+          path: built-site
+
+      - name: Copy Built Site
+        run: |
+          cp -R * built-site/
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/main'
+        run: |
+          cd built-site
+          git add .
+          git config user.name 'harshu6397'
+          git config user.email 'harshkumarkardam258@gmail.com'
+          git commit -m 'Updated site' || echo 'No changes to commit'
+          git push origin gh-pages --force
