@@ -13,8 +13,8 @@
       <link>https://harshu6397.github.io/my-blog-website/posts/2024-07-12-sql-joins/</link>
       <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
       <guid>https://harshu6397.github.io/my-blog-website/posts/2024-07-12-sql-joins/</guid>
-      <description>SQL Joins Overview SQL joins are used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL:
-INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match.</description>
+      <description>SQL joins are used to combine rows from two or more tables based on a related column between them. In this post, we will explore the different types of joins in SQL and provide detailed examples. By the end, you&amp;rsquo;ll have a solid understanding of how to use SQL joins effectively.
+Types of SQL Joins SQL joins are powerful tools for combining rows from two or more tables based on related columns.</description>
     </item>
   </channel>
 </rss>
