@@ -1,0 +1,41 @@
+&lt;?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/</loc>
+    
+    <lastmod>2024-07-12T10:54:38&#43;05:30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/posts/</loc>
+    
+    <lastmod>2024-07-12T10:54:38&#43;05:30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/posts/2024-07-12-sql-joins/</loc>
+    
+    <lastmod>2024-07-12T10:54:38&#43;05:30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/archives/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/categories/</loc>
+    
+  </url>
+  
+  <url>
+    <loc>https://harshu6397.github.io/my-blog-website/tags/</loc>
+    
+  </url>
+  
+</urlset>

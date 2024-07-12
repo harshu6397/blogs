@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My Blog</title>
+    <link>https://harshu6397.github.io/my-blog-website/</link>
+    <description>Recent content on My Blog</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jul 2024 10:54:38 +0530</lastBuildDate>
+    <atom:link href="https://harshu6397.github.io/my-blog-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Joins</title>
+      <link>https://harshu6397.github.io/my-blog-website/posts/2024-07-12-sql-joins/</link>
+      <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
+      <guid>https://harshu6397.github.io/my-blog-website/posts/2024-07-12-sql-joins/</guid>
+      <description>SQL Joins Overview SQL joins are used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL:
+INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match.</description>
+    </item>
+  </channel>
+</rss>
