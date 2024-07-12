@@ -25,7 +25,8 @@ jobs:
 
       - name: Copy Built Site
         run: |
-          cp -R * built-site/
+          shopt -s extglob
+          cp -R !(built-site) built-site/
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
