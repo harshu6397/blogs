@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>SQL Joins | My Blog</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="Database, SQL">
 <meta name="description" content="SQL Joins Overview SQL joins are used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL:
 INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match.">
 <meta name="author" content="">
@@ -101,7 +101,7 @@ INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTE
   "name": "SQL Joins",
   "description": "SQL Joins Overview SQL joins are used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL:\nINNER JOIN: Returns records that have matching values in both tables. LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match.",
   "keywords": [
-    
+    "Database", "SQL"
   ],
   "articleBody": "SQL Joins Overview SQL joins are used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL:\nINNER JOIN: Returns records that have matching values in both tables. LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table. The result is NULL from the right side if there is no match. RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table. The result is NULL from the left side when there is no match. FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table. It returns NULL when there is no match. Example Tables employees\nemployee_id name department_id 1 Alice 1 2 Bob 2 3 Charlie NULL 4 David 2 departments\ndepartment_id department_name 1 HR 2 IT 3 Finance INNER JOIN This join returns only the rows that have matching values in both tables.\nSELECT employees.name, departments.department_name FROM employees INNER JOIN departments ON employees.department_id = departments.department_id; Result:\nname department_name Alice HR Bob IT David IT LEFT JOIN (LEFT OUTER JOIN) This join returns all rows from the left table (employees), and the matched rows from the right table (departments). If no match is found, NULL values are returned for columns of the right table.\nSELECT employees.name, departments.department_name FROM employees LEFT JOIN departments ON employees.department_id = departments.department_id; Result:\nname department_name Alice HR Bob IT Charlie NULL David IT RIGHT JOIN (RIGHT OUTER JOIN) This join returns all rows from the right table (departments), and the matched rows from the left table (employees). If no match is found, NULL values are returned for columns of the left table.\nSELECT employees.name, departments.department_name FROM employees RIGHT JOIN departments ON employees.department_id = departments.department_id; Result:\nname department_name Alice HR Bob IT David IT NULL Finance FULL JOIN (FULL OUTER JOIN) This join returns all rows when there is a match in either left (employees) or right (departments) table. If no match is found, NULL values are returned for columns from the table without a match.\nSELECT employees.name, departments.department_name FROM employees FULL JOIN departments ON employees.department_id = departments.department_id; Result:\nname department_name Alice HR Bob IT Charlie NULL David IT NULL Finance Summary INNER JOIN: Only matching rows. LEFT JOIN: All rows from the left table and matching rows from the right table. RIGHT JOIN: All rows from the right table and matching rows from the left table. FULL JOIN: All rows from both tables with matches when available. SQL Joins Interview Questions What is the difference between INNER JOIN and OUTER JOIN? How does a LEFT JOIN differ from a RIGHT JOIN? Can you explain a scenario where you would use a FULL OUTER JOIN? What happens if you perform a join on columns with NULL values? How can you optimize SQL queries involving multiple joins? Can you describe the execution order of joins in a complex SQL query? What are the potential performance impacts of using joins in SQL? How do you handle many-to-many relationships using joins? Explain the use of aliases in SQL joins. What are the differences between using JOIN and UNION in SQL? ",
   "wordCount" : "536",
@@ -167,11 +167,6 @@ INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTE
             <li>
                 <a href="https://harshu6397.github.io/my-blog-website/posts/" title="Posts">
                     <span>Posts</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://harshu6397.github.io/my-blog-website/categories/" title="Categories">
-                    <span>Categories</span>
                 </a>
             </li>
             <li>
@@ -421,6 +416,8 @@ INNER JOIN: Returns records that have matching values in both tables. LEFT (OUTE
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://harshu6397.github.io/my-blog-website/tags/database/">Database</a></li>
+      <li><a href="https://harshu6397.github.io/my-blog-website/tags/sql/">SQL</a></li>
     </ul>
   </footer>
 </article>
