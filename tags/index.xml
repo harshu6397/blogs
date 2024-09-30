@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on My Blog</title>
-    <link>https://harshu6397.github.io/my-blog-website/tags/</link>
+    <link>http://localhost:1313/my-blog-website/tags/</link>
     <description>Recent content in Tags on My Blog</description>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 10:54:38 +0530</lastBuildDate>
-    <atom:link href="https://harshu6397.github.io/my-blog-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2024 17:03:54 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/my-blog-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/my-blog-website/tags/nlp/</link>
+      <pubDate>Mon, 30 Sep 2024 17:03:54 +0530</pubDate>
+      <guid>http://localhost:1313/my-blog-website/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TF-IDF</title>
+      <link>http://localhost:1313/my-blog-website/tags/tf-idf/</link>
+      <pubDate>Mon, 30 Sep 2024 17:03:54 +0530</pubDate>
+      <guid>http://localhost:1313/my-blog-website/tags/tf-idf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Database</title>
-      <link>https://harshu6397.github.io/my-blog-website/tags/database/</link>
+      <link>http://localhost:1313/my-blog-website/tags/database/</link>
       <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
-      <guid>https://harshu6397.github.io/my-blog-website/tags/database/</guid>
+      <guid>http://localhost:1313/my-blog-website/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>https://harshu6397.github.io/my-blog-website/tags/sql/</link>
+      <link>http://localhost:1313/my-blog-website/tags/sql/</link>
       <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
-      <guid>https://harshu6397.github.io/my-blog-website/tags/sql/</guid>
+      <guid>http://localhost:1313/my-blog-website/tags/sql/</guid>
       <description></description>
     </item>
   </channel>

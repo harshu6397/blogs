@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My Blog</title>
-    <link>http://localhost:1313/my-blog-website/</link>
-    <description>Recent content on My Blog</description>
+    <title>NLP on My Blog</title>
+    <link>http://localhost:1313/my-blog-website/tags/nlp/</link>
+    <description>Recent content in NLP on My Blog</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Sep 2024 17:03:54 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/my-blog-website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my-blog-website/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding TF-IDF (Term Frequency-Inverse Document Frequency)</title>
       <link>http://localhost:1313/my-blog-website/posts/2024-09-30-tf-idf/</link>
@@ -16,15 +16,6 @@
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;When dealing with large collections of text, such as in search engines, recommendation systems, or natural language processing (NLP) tasks, it&amp;rsquo;s important to quantify the relevance of words in documents. One of the most popular methods to do this is &lt;strong&gt;TF-IDF&lt;/strong&gt;, which stands for &lt;strong&gt;Term Frequency-Inverse Document Frequency&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;TF-IDF is a statistical measure that evaluates the importance of a word in a document relative to a collection of documents, known as the corpus. The underlying principle of TF-IDF is that words that occur frequently in a document but not across the entire corpus are more important. Let&amp;rsquo;s break this down.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SQL Joins</title>
-      <link>http://localhost:1313/my-blog-website/posts/2024-07-12-sql-joins/</link>
-      <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
-      <guid>http://localhost:1313/my-blog-website/posts/2024-07-12-sql-joins/</guid>
-      <description>&lt;p&gt;SQL joins are used to combine rows from two or more tables based on a related column between them. In this post, we will explore the different types of joins in SQL and provide detailed examples. By the end, you&amp;rsquo;ll have a solid understanding of how to use SQL joins effectively.&lt;/p&gt;
-&lt;h3 id=&#34;types-of-sql-joins&#34;&gt;Types of SQL Joins&lt;/h3&gt;
-&lt;p&gt;SQL joins are powerful tools for combining rows from two or more tables based on related columns. Let&amp;rsquo;s break down each type of join:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
