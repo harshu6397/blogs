@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>NLP on My Blog</title>
+    <title>NLP on Blogs</title>
     <link>https://harshu6397.github.io/my-blog-website/tags/nlp/</link>
-    <description>Recent content in NLP on My Blog</description>
+    <description>Recent content in NLP on Blogs</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Sep 2024 17:03:54 +0530</lastBuildDate>
