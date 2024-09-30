@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Database on My Blog</title>
+    <title>Database on Blogs</title>
     <link>https://harshu6397.github.io/my-blog-website/tags/database/</link>
-    <description>Recent content in Database on My Blog</description>
+    <description>Recent content in Database on Blogs</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jul 2024 10:54:38 +0530</lastBuildDate>
