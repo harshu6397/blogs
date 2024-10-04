@@ -10,9 +10,9 @@
     <atom:link href="https://harshu6397.github.io/my-blog-website/tags/tf-idf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding TF-IDF (Term Frequency-Inverse Document Frequency)</title>
-      <link>https://harshu6397.github.io/my-blog-website/posts/2024-09-30-tf-idf/</link>
+      <link>https://harshu6397.github.io/my-blog-website/posts/tf-idf/</link>
       <pubDate>Mon, 30 Sep 2024 17:03:54 +0530</pubDate>
-      <guid>https://harshu6397.github.io/my-blog-website/posts/2024-09-30-tf-idf/</guid>
+      <guid>https://harshu6397.github.io/my-blog-website/posts/tf-idf/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;When dealing with large collections of text, such as in search engines, recommendation systems, or natural language processing (NLP) tasks, it&amp;rsquo;s important to quantify the relevance of words in documents. One of the most popular methods to do this is &lt;strong&gt;TF-IDF&lt;/strong&gt;, which stands for &lt;strong&gt;Term Frequency-Inverse Document Frequency&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;TF-IDF is a statistical measure that evaluates the importance of a word in a document relative to a collection of documents, known as the corpus. The underlying principle of TF-IDF is that words that occur frequently in a document but not across the entire corpus are more important. Let&amp;rsquo;s break this down.&lt;/p&gt;</description>
