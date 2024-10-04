@@ -10,9 +10,9 @@
     <atom:link href="https://harshu6397.github.io/my-blog-website/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker and Container Basics – A Friendly Guide to Get Started 🚀</title>
-      <link>https://harshu6397.github.io/my-blog-website/posts/04-10-2024-docker-container-basics/</link>
+      <link>https://harshu6397.github.io/my-blog-website/posts/docker-container-basics/</link>
       <pubDate>Fri, 04 Oct 2024 10:26:07 +0530</pubDate>
-      <guid>https://harshu6397.github.io/my-blog-website/posts/04-10-2024-docker-container-basics/</guid>
+      <guid>https://harshu6397.github.io/my-blog-website/posts/docker-container-basics/</guid>
       <description>&lt;p&gt;Welcome to the world of Docker! If you’ve heard people talk about containers and how they revolutionize software development, but weren’t quite sure what it’s all about, you’re in the right place. By the end of this blog, you’ll have a strong understanding of Docker basics, and you’ll be ready to dive deeper into this awesome tool.&lt;/p&gt;
 &lt;h2 id=&#34;what-exactly-is-docker-&#34;&gt;What Exactly is Docker? 🤔&lt;/h2&gt;
 &lt;p&gt;Imagine you’ve just finished creating an amazing web app. Now, you need to make sure it runs smoothly on every environment—whether it’s your laptop, a server, or the cloud. But here’s the catch: different systems have different setups, and what works perfectly on your machine might not work on someone else’s. This is where Docker saves the day!&lt;/p&gt;</description>
