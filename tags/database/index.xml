@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Database on Blogs</title>
-    <link>https://harshu6397.github.io/my-blog-website/tags/database/</link>
+    <link>https://harshu6397.github.io/tags/database/</link>
     <description>Recent content in Database on Blogs</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jul 2024 10:54:38 +0530</lastBuildDate>
-    <atom:link href="https://harshu6397.github.io/my-blog-website/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://harshu6397.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL Joins</title>
-      <link>https://harshu6397.github.io/my-blog-website/posts/sql-joins/</link>
+      <link>https://harshu6397.github.io/posts/sql-joins/</link>
       <pubDate>Fri, 12 Jul 2024 10:54:38 +0530</pubDate>
-      <guid>https://harshu6397.github.io/my-blog-website/posts/sql-joins/</guid>
+      <guid>https://harshu6397.github.io/posts/sql-joins/</guid>
       <description>&lt;p&gt;SQL joins are used to combine rows from two or more tables based on a related column between them. In this post, we will explore the different types of joins in SQL and provide detailed examples. By the end, you&amp;rsquo;ll have a solid understanding of how to use SQL joins effectively.&lt;/p&gt;
 &lt;h3 id=&#34;types-of-sql-joins&#34;&gt;Types of SQL Joins&lt;/h3&gt;
 &lt;p&gt;SQL joins are powerful tools for combining rows from two or more tables based on related columns. Let&amp;rsquo;s break down each type of join:&lt;/p&gt;</description>
